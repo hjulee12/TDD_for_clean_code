@@ -15,7 +15,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
 
         # 웹페이지 타이틀과 헤더가 'To-do'를 표시하고 있다.
-        self.assertIn('To-do', self.browser.title)
+        self.assertIn('To-Do', self.browser.title)
         self.fail('Finish the test!')
         assert 'To-do' in browser.title
 
